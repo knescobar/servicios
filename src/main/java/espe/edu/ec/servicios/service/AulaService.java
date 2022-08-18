@@ -3,7 +3,6 @@ package espe.edu.ec.servicios.service;
 import espe.edu.ec.servicios.dao.AulaRepository;
 import espe.edu.ec.servicios.dao.EstudianteRepository;
 import espe.edu.ec.servicios.exception.EntityNotFoundException;
-import espe.edu.ec.servicios.exception.ExisteException;
 import espe.edu.ec.servicios.model.Aula;
 import espe.edu.ec.servicios.model.Estudiante;
 import org.springframework.stereotype.Service;

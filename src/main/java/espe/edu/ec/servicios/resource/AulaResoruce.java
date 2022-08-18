@@ -17,7 +17,7 @@ public class AulaResoruce {
     private  final AulaService aulaService;
 
     @GetMapping("/{nivel}/{paralelo}")
-    public ResponseEntity<List<Estudiante>> findAccountByNumber(@PathVariable Integer nivel,  @PathVariable String paralelo) {
+    public ResponseEntity<List<Estudiante>> findAccountByNumber(@PathVariable Integer nivel, @PathVariable String paralelo) {
         return ResponseEntity.ok(this.aulaService.listadoCodigoYNivel(nivel, paralelo));
     }
 
